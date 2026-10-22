@@ -66,6 +66,7 @@
 
 ## Workspace setup
 
+- Prepare `Keep gems inside the project` with `ruby` when `Gemfile` exists: `bundle` `config` `set` `--local` `path` `vendor/bundle`
 - Prepare `Install Ruby dependencies` with `ruby` `cpp` when `Gemfile` exists: `bundle` `install`
 - Prepare `Install JavaScript dependencies` with `nodejs` if `package.json` exists: `npm` `install`
 - Prepare `Prepare database` with `ruby` when `bin/rails` exists: `bin/rails` `db:prepare`
